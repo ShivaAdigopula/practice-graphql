@@ -1,0 +1,4 @@
+type Query {
+    queryMovie: String
+    fullName(firstName: String, lastName: String) : String
+}
